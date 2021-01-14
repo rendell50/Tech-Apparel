@@ -68,16 +68,24 @@ a{
 
 .btn{
     display: inline-block;
-    background:#31312b;
+    background:#69ad41;
     color: #ffffff;
     padding: 8px 30px;
-    margin: 30px 0;
+    margin: 5px 0;
     border-radius: 30px;
     transition: 0.5s;
+    cursor: pointer;
+    border: none;
+    
 }
 
 .btn:hover{
-    background: #31312b;
+    background: #43831e;
+    color: #ffffff;
+}
+
+.btn:focus{
+    outline: none;
 }
 
 header{
@@ -176,8 +184,8 @@ h4{
 }
 
 .col-2 .btn:hover{
-    background-color: #ffffff;
-    color: #31312b;
+    background-color: #555;
+    color: #ffffff;
 }
 
 /* Testimonial */
@@ -568,6 +576,13 @@ form a{
     transform: translateX(100px);
     transition: transform 1s;
 }
+
+#DemoBtn{
+    background-color:#555;
+    color: #d69710;
+}
+
+
 
 
 /* Media Query for less than 600 screen size */

@@ -46,7 +46,7 @@
               </tr>
               <tr>
                   <td>
-                      <div class="cart-info">
+                      <div class="cart-info cart-content">
                           <img src="images/prod-1.jpg" >
                           <div>
                               <p>Laptop Bag</p>
@@ -59,37 +59,8 @@
                   <td><input type="number" value="1"></td>
                   <td>$500</td>
               </tr>
-              <tr>
-                  <td>
-                      <div class="cart-info">
-                          <img src="images/prod-2.jpg" >
-                          <div>
-                              <p>Laptop Bag</p>
-                              <small>Price: $500</small>
-                              <br>
-                              <a href="">Remove</a>
-                          </div>
-                      </div>
-                  </td>
-                  <td><input type="number" value="1"></td>
-                  <td>$500</td>
-              </tr>
-              <tr>
-                  <td>
-                      <div class="cart-info">
-                          <img src="images/prod-3.jpg" >
-                          <div>
-                              <p>Laptop Bag</p>
-                              <small>Price: $500</small>
-                              <br>
-                              <a href="">Remove</a>
-                          </div>
-                      </div>
-                  </td>
-                  <td><input type="number" value="1"></td>
-                  <td>$500</td>
-              </tr>
           </table>
+          <button class="btn clear-cart">Clear Cart</button>
           <div class="total-price">
               <table>
                   <tr>
@@ -102,7 +73,7 @@
                   </tr>
                   <tr>
                       <td>Total</td>
-                      <td>$1650</td>
+                      <td>$ <span class="cart-total">0</span></td>
                   </tr>
               </table>
           </div>
@@ -164,7 +135,8 @@
         }
     }
 </script>
-   
+
+<script src="app.js"></script>
 
 
 </body>

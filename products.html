@@ -30,7 +30,13 @@
                     <li><a href="./account.html" rel="noopener noreferrer">Account</a></li>
                 </ul>
                 </nav>
-                <a href="./cart.html"><img src="images/cart.png" width="30px" height="30px" alt="Cart"><span class="cart-items">0</span></a>
+                <div class="cart-btn">
+                    <img src="images/cart.png"  width="30px" height="30px" alt="Cart">
+                </div>
+                  
+
+               
+                <div class="cart-items">0</div>
                 <img src="images/menu-icon.png" class="menu-icon" onclick="menutoggle()">
             </div>
       
@@ -47,12 +53,32 @@
                 <option value="">Sort by sale</option>
             </select>
         </div>
-
+        <!-- Products Section -->
         <div class="row products-center"  >
     
         </div>
-        <span class="cart-total">0</span>
-   
+       
+        <!-- End of Products -->
+        <!-- Cart -->
+        <div class="cart-overlay">
+            <div class="cart">
+                <span class="close-cart">
+                    <i class="fa fa-window-close " aria-hidden="true"></i>
+                </span>
+                <h2>Your Cart</h2>
+                <div class="cart-content">
+                    <!-- cart item -->
+                    <!-- <div class="cart-item">
+                      
+                    </div> -->
+                    <!-- end of cart item -->
+                </div>
+                <div class="cart-footer">
+                    <h3>Your Total : $ <span class="cart-total"></span></h3>
+                    <button class="clear-cart btn">Clear Cart</button>
+                </div>
+            </div>
+        </div>
 
         <div class="page-btn">
             <span>1</span>
